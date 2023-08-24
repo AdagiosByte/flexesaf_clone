@@ -1,0 +1,6 @@
+export {default as Blog} from './Blog'
+export {default as Careers} from './Careers'
+export {default as Company} from './Company'
+export {default as Contact} from './Contact'
+export {default as Home} from './Home'
+export {default as Products} from './Products'

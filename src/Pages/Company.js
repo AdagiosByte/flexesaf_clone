@@ -1,9 +1,12 @@
 import React from 'react'
-import {Topbar} from '../Components/'
+import {Topbar, Footer} from '../Components/'
 
 const Company = () => {
   return (
-    <div><Topbar state={'Company'}/></div>
+    <div>
+      <Topbar state={'Company'}/>
+      <Footer/>
+      </div>
   )
 }
 

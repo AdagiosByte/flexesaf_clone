@@ -1,6 +1,10 @@
+import Terms_of_Service from './Terms_of_Service'
+
 export {default as Blog} from './Blog'
 export {default as Careers} from './Careers'
 export {default as Company} from './Company'
 export {default as Contact} from './Contact'
 export {default as Home} from './Home'
 export {default as Products} from './Products'
+export {default as Privacy} from './Privacy'
+export {default as Terms_of_Service} from './Terms_of_Service'

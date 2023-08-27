@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Home, Blog, Careers, Company, Contact, Products } from './Pages'
+import { Home, Blog, Careers, Company, Contact, Products, Privacy, Terms_of_Service } from './Pages'
 
 function App() {
   return (
@@ -14,6 +14,8 @@ function App() {
           <Route path='/careers' exact element={<Careers />} />
           <Route path='/blog' exact element={<Blog />} />
           <Route path='/contact' exact element={<Contact />} />
+          <Route path='/privacy' exact element={<Privacy/>}/>
+          <Route path='/terms-of-service' exact element={<Terms_of_Service/>}/>
         </Routes>
       </div>
     </BrowserRouter>
